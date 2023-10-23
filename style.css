@@ -1,0 +1,201 @@
+@charset "utf-8";
+
+
+
+/* common */
+
+body {
+  margin: 0;
+  font-family: 'Noto Sans JP' "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+
+}
+
+h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.headline2 {
+  text-align: center;
+  margin-top: 72px;
+  margin-bottom: 48px;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 20px;
+}
+
+p {
+  margin: 0;
+}
+
+.rr {
+  padding-top: 32px;
+}
+
+.ee {
+  padding-bottom:64px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  
+
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  
+}
+
+ol {
+  margin:0;
+}
+
+ol li {
+  text-align: left;
+
+}
+
+/* header */
+
+header {
+  padding-top: 32px;
+}
+
+header h1 {
+  text-align: center;
+}
+
+header div {
+  text-align: center;
+}
+
+.head-img {
+  display: flex;
+  justify-content: center;
+  padding: 32px;
+
+}
+
+.head-img img {
+  margin: 0;
+}
+
+img {
+   display: block;
+  margin: 0 auto;
+}
+
+/* ul */
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  margin-left: 30px;
+  
+}
+
+.mokuzi ul {
+  text-align: left;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-size: 32px;
+}
+
+/* section */
+
+.section-big {
+  margin: 32px auto 0;
+  max-width: 600px;
+  
+}
+
+.section-big div {
+  text-align: center;
+}
+
+.section-big h2 {
+  margin-top: 64px;
+}
+
+.section-big p {
+  margin-top: 16px;
+}
+
+
+.section-small {
+  margin: 32px auto 0;
+  max-width: 600px;
+  
+}
+
+.section-small div {
+  text-align: center;
+}
+
+.section-small h2 {
+  margin-top: 64px;
+}
+
+.section-small p {
+  margin-top: 16px;
+}
+
+.section-small {
+  padding-bottom: 64px;
+}
+
+.section-small ol {
+  margin-top: 32px;
+}
+
+
+/* toc */
+
+
+.toc {
+  background-color: #eee;
+  padding: 32px;
+  border: 1px solid #ccc;
+  text-align: left;
+  width: 200px;
+  margin: 0 auto; 
+}
+
+
+
+
+/* footer */
+
+footer {
+  text-align: center;
+  padding: 64px;
+  background: #eee;
+}
+
+
+
+@media (min-width: 600px) {
+body {
+  margin: 32px;
+}
+
+
+}
